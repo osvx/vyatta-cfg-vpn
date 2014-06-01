@@ -1,3 +1,21 @@
+vyatta-cfg-vpn (0.12.105+osvx1+projectx1) unstable; urgency=medium
+
+  [ Daniil Baturin ]
+  * Bug #183: Add up-client action to the interface up/down script. Patch by Masakazu Asama.
+
+  [ Jeff Leung ]
+  * Adding initial support for IKEv2/IKEv1 Site-to-Site VPN's by adding the optional "vpn ipsec ike-group <IKEGROUP> key-exchange" parameter.
+
+  [ Ryan Riske ]
+  * Add support for DH groups 14-26
+  * Bug 220: Add support for SHA2 hashes
+  * Bug 197: Add back support for groups 22-24 for phase2 pfs
+
+  [ Valentin Yakovenkov ]
+  * Change vyatta-ipsec to strongswan
+
+ -- Valentin Yakovenkov <yakovenkov@gmail.com>  Sun, 01 Jun 2014 20:55:07 +0400
+
 vyatta-cfg-vpn (0.12.105+vyos1+helium1) unstable; urgency=low
 
   * New branch
